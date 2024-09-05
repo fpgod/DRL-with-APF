@@ -1,0 +1,226 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5013194347351199 0.5063584353276549 0.7016266523795892 1.9085440898444344
+  position 0.14907717805272602 -2.704987683237169 7.78613127063146
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 4 4
+  floorTileSize 2 2
+}
+DEF col4 OilBarrel {
+  translation 0 0 0.15
+  name "oil barrel(1)"
+  height 0.3
+  radius 0.1
+}
+DEF col3 OilBarrel {
+  translation 0.5 -0.5 0.15
+  name "oil barrel(2)"
+  height 0.3
+  radius 0.1
+}
+DEF col2 OilBarrel {
+  translation 0.5 0.5 0.15
+  name "oil barrel(3)"
+  height 0.3
+  radius 0.1
+}
+DEF col1 OilBarrel {
+  translation -0.5 0.5 0.15
+  name "oil barrel(4)"
+  height 0.3
+  radius 0.1
+}
+DEF col0 OilBarrel {
+  translation -0.5 -0.5 0.15
+  height 0.3
+  radius 0.1
+}
+DEF e-puck4 E-puck {
+  translation 1 0 0
+  rotation 0.05164706395604617 0.1246874677595231 -0.9908509555772945 0.7376051376209822
+  name "e-puck4"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 4
+  receiver_channel 4
+}
+Robot {
+  children [
+    DEF emitter0 Emitter {
+      name "emitter0"
+    }
+    DEF emitter1 Emitter {
+      name "emitter1"
+      channel 1
+    }
+    DEF emitter2 Emitter {
+      name "emitter2"
+      channel 2
+    }
+    DEF emitter3 Emitter {
+      name "emitter3"
+      channel 3
+    }
+    DEF emitter4 Emitter {
+      name "emitter4"
+      channel 4
+    }
+    DEF emitter5 Emitter {
+      name "emitter5"
+      channel 5
+    }
+    DEF emitter6 Emitter {
+      name "emitter6"
+      channel 6
+    }
+    DEF emitter7 Emitter {
+      name "emitter7"
+      channel 7
+    }
+    DEF emitter8 Emitter {
+      name "emitter8"
+      channel 8
+    }
+    DEF emitter9 Emitter {
+      name "emitter9"
+      channel 9
+    }
+    DEF receiver0 Receiver {
+      name "receiver0"
+    }
+    DEF receiver1 Receiver {
+      name "receiver1"
+      channel 1
+    }
+    DEF receiver2 Receiver {
+      name "receiver2"
+      channel 2
+    }
+    DEF receiver3 Receiver {
+      name "receiver3"
+      channel 3
+    }
+    DEF receiver4 Receiver {
+      name "receiver4"
+      channel 4
+    }
+    DEF receiver5 Receiver {
+      name "receiver5"
+      channel 5
+    }
+    DEF receiver6 Receiver {
+      name "receiver6"
+      channel 6
+    }
+    DEF receiver7 Receiver {
+      name "receiver7"
+      channel 7
+    }
+    DEF receiver8 Receiver {
+      name "receiver8"
+      channel 8
+    }
+    DEF receiver9 Receiver {
+      name "receiver9"
+      channel 9
+    }
+  ]
+  controller "<extern>"
+  supervisor TRUE
+}
+DEF e-puck3 E-puck {
+  translation 0 1 0
+  rotation 0.004669471427318576 0.003556065312501408 -0.9999827750696922 0.5937840446090823
+  name "e-puck3"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 3
+  receiver_channel 3
+}
+DEF e-puck2 E-puck {
+  translation -1 0 0
+  rotation -0.01668035269891134 0.006589125572048048 0.9998391616945376 2.270721799739114
+  name "e-puck2"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 2
+  receiver_channel 2
+}
+DEF e-puck1 E-puck {
+  translation 1 1 0
+  rotation 0.02196690668348494 0.02043326304273824 0.9995498670762681 -1.655782659381897
+  name "e-puck1"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+}
+DEF e-puck0 E-puck {
+  translation -1 1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck0"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 0
+  receiver_channel 0
+}
+DEF e-puck5 E-puck {
+  translation -1 -1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck5"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 5
+  receiver_channel 5
+}
+DEF e-puck6 E-puck {
+  translation 1 -1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck6"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 6
+  receiver_channel 6
+}
+DEF e-puck7 E-puck {
+  translation 0 -1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck7"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 7
+  receiver_channel 7
+}
+DEF e-puck8 E-puck {
+  translation 0.5 1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck8"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 8
+  receiver_channel 8
+}
+DEF e-puck9 E-puck {
+  translation -0.5 -1 0
+  rotation -0.007935806592541114 0.02722904449681013 0.9995977201402155 1.6926129674543358
+  name "e-puck9"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 9
+  receiver_channel 9
+}
