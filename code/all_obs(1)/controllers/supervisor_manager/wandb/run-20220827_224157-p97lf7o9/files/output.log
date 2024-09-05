@@ -1,0 +1,234 @@
+C:\Python38\lib\site-packages\gym\spaces\box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+Creation of the directory ./models/saved/sac_all_map/ failed
+Creation of the directory ./exports_sac_all_map/ failed
+state_dim=14
+action_dim=2
+max_action=1.0
+max_episode_steps=1000
+4999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:1 	 evaluate_reward:-397
+9999
+eva
+evaluate_num:2 	 evaluate_reward:-397
+14999
+eva
+evaluate_num:3 	 evaluate_reward:-397
+19999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:4 	 evaluate_reward:-395
+24999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:5 	 evaluate_reward:-395
+29999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:6 	 evaluate_reward:-365
+34999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:7 	 evaluate_reward:-200
+39999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:8 	 evaluate_reward:478
+44999
+eva
+evaluate_num:9 	 evaluate_reward:-164
+49999
+eva
+evaluate_num:10 	 evaluate_reward:79
+54999
+eva
+evaluate_num:11 	 evaluate_reward:458
+59999
+eva
+evaluate_num:12 	 evaluate_reward:435
+64999
+eva
+evaluate_num:13 	 evaluate_reward:196
+69999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:14 	 evaluate_reward:556
+74999
+eva
+evaluate_num:15 	 evaluate_reward:487
+79999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:16 	 evaluate_reward:730
+84999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:17 	 evaluate_reward:974
+89999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:18 	 evaluate_reward:1158
+94999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:19 	 evaluate_reward:1174
+99999
+eva
+evaluate_num:20 	 evaluate_reward:1097
+104999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:21 	 evaluate_reward:1472
+109999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:22 	 evaluate_reward:1559
+114999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:23 	 evaluate_reward:1635
+119999
+eva
+evaluate_num:24 	 evaluate_reward:1551
+124999
+eva
+evaluate_num:25 	 evaluate_reward:1441
+129999
+eva
+evaluate_num:26 	 evaluate_reward:1466
+134999
+eva
+evaluate_num:27 	 evaluate_reward:1198
+139999
+eva
+evaluate_num:28 	 evaluate_reward:1468
+144999
+eva
+evaluate_num:29 	 evaluate_reward:1411
+149999
+eva
+evaluate_num:30 	 evaluate_reward:1598
+154999
+eva
+evaluate_num:31 	 evaluate_reward:1608
+159999
+eva
+evaluate_num:32 	 evaluate_reward:1534
+164999
+eva
+evaluate_num:33 	 evaluate_reward:1533
+169999
+eva
+evaluate_num:34 	 evaluate_reward:1443
+174999
+eva
+evaluate_num:35 	 evaluate_reward:1510
+179999
+eva
+evaluate_num:36 	 evaluate_reward:1595
+184999
+eva
+evaluate_num:37 	 evaluate_reward:1443
+189999
+eva
+evaluate_num:38 	 evaluate_reward:1535
+194999
+eva
+evaluate_num:39 	 evaluate_reward:1423
+199999
+eva
+evaluate_num:40 	 evaluate_reward:1396
+204999
+eva
+evaluate_num:41 	 evaluate_reward:1584
+209999
+eva
+evaluate_num:42 	 evaluate_reward:1449
+214999
+eva
+evaluate_num:43 	 evaluate_reward:1490
+219999
+eva
+evaluate_num:44 	 evaluate_reward:1621
+224999
+eva
+evaluate_num:45 	 evaluate_reward:1274
+229999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:46 	 evaluate_reward:1663
+234999
+eva
+evaluate_num:47 	 evaluate_reward:1647
+239999
+eva
+evaluate_num:48 	 evaluate_reward:1517
+244999
+eva
+evaluate_num:49 	 evaluate_reward:1375
+249999
+eva
+evaluate_num:50 	 evaluate_reward:1394
+254999
+eva
+evaluate_num:51 	 evaluate_reward:1609
+259999
+eva
+evaluate_num:52 	 evaluate_reward:1528
+264999
+eva
+evaluate_num:53 	 evaluate_reward:1587
+269999
+eva
+evaluate_num:54 	 evaluate_reward:1472
+274999
+eva
+evaluate_num:55 	 evaluate_reward:1557
+279999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:56 	 evaluate_reward:1718
+Traceback (most recent call last):
+  File "supervisor_manager.py", line 307, in <module>
+    agent.learn(replay_buffer)
+  File "D:\fp\ppo_rl\controllers\supervisor_manager\sac_rl.py", line 189, in learn
+    actor_loss.backward()
+  File "C:\Users\002\AppData\Roaming\Python\Python38\site-packages\torch\_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\002\AppData\Roaming\Python\Python38\site-packages\torch\autograd\__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: [enforce fail at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10\core\impl\alloc_cpu.cpp:81] data. DefaultCPUAllocator: not enough memory: you tried to allocate 262144 bytes.

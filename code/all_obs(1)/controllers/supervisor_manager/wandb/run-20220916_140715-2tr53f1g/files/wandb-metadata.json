@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-09-16T06:07:19.590246",
+    "startedAt": "2022-09-16T06:07:15.582281",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Super",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "F:/aamas/ppo_rl/controllers/supervisor_manager/supervisor_manager.py",
+    "codePath": "supervisor_manager.py",
+    "host": "DESKTOP-QU5ARJO",
+    "username": "fp",
+    "executable": "E:\\anconda\\envs\\cuda_torch\\python.exe"
+}

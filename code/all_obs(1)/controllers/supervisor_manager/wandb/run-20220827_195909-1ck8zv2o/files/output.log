@@ -1,0 +1,263 @@
+C:\Python38\lib\site-packages\gym\spaces\box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+Creation of the directory ./models/saved/sac_all_map/ failed
+Creation of the directory ./exports_sac_all_map/ failed
+state_dim=13
+action_dim=2
+max_action=1.0
+max_episode_steps=1000
+4999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:1 	 evaluate_reward:-504
+9999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:2 	 evaluate_reward:-503
+14999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:3 	 evaluate_reward:-485
+19999
+eva
+evaluate_num:4 	 evaluate_reward:-506
+24999
+eva
+evaluate_num:5 	 evaluate_reward:-491
+29999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:6 	 evaluate_reward:-369
+34999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:7 	 evaluate_reward:-142
+39999
+eva
+evaluate_num:8 	 evaluate_reward:-536
+44999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:9 	 evaluate_reward:151
+49999
+eva
+evaluate_num:10 	 evaluate_reward:-422
+54999
+eva
+evaluate_num:11 	 evaluate_reward:-210
+59999
+eva
+evaluate_num:12 	 evaluate_reward:-571
+64999
+eva
+evaluate_num:13 	 evaluate_reward:45
+69999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:14 	 evaluate_reward:322
+74999
+eva
+evaluate_num:15 	 evaluate_reward:65
+79999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:16 	 evaluate_reward:378
+84999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:17 	 evaluate_reward:528
+89999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:18 	 evaluate_reward:818
+94999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:19 	 evaluate_reward:906
+99999
+eva
+evaluate_num:20 	 evaluate_reward:453
+104999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:21 	 evaluate_reward:1121
+109999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:22 	 evaluate_reward:1140
+114999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:23 	 evaluate_reward:1173
+119999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:24 	 evaluate_reward:1535
+124999
+eva
+evaluate_num:25 	 evaluate_reward:1477
+129999
+eva
+evaluate_num:26 	 evaluate_reward:1498
+134999
+eva
+evaluate_num:27 	 evaluate_reward:1374
+139999
+eva
+evaluate_num:28 	 evaluate_reward:1471
+144999
+eva
+evaluate_num:29 	 evaluate_reward:1449
+149999
+eva
+evaluate_num:30 	 evaluate_reward:1404
+154999
+eva
+evaluate_num:31 	 evaluate_reward:1466
+159999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:32 	 evaluate_reward:1626
+164999
+eva
+evaluate_num:33 	 evaluate_reward:1549
+169999
+eva
+evaluate_num:34 	 evaluate_reward:1307
+174999
+eva
+evaluate_num:35 	 evaluate_reward:1500
+179999
+eva
+evaluate_num:36 	 evaluate_reward:1500
+184999
+eva
+evaluate_num:37 	 evaluate_reward:1494
+189999
+eva
+evaluate_num:38 	 evaluate_reward:1477
+194999
+eva
+evaluate_num:39 	 evaluate_reward:1497
+199999
+eva
+evaluate_num:40 	 evaluate_reward:1550
+204999
+eva
+evaluate_num:41 	 evaluate_reward:1506
+209999
+eva
+evaluate_num:42 	 evaluate_reward:1541
+214999
+eva
+evaluate_num:43 	 evaluate_reward:1480
+219999
+eva
+evaluate_num:44 	 evaluate_reward:1541
+224999
+eva
+evaluate_num:45 	 evaluate_reward:1489
+229999
+eva
+evaluate_num:46 	 evaluate_reward:1503
+234999
+eva
+evaluate_num:47 	 evaluate_reward:1443
+239999
+eva
+evaluate_num:48 	 evaluate_reward:1385
+244999
+eva
+evaluate_num:49 	 evaluate_reward:1463
+249999
+eva
+evaluate_num:50 	 evaluate_reward:1470
+254999
+eva
+evaluate_num:51 	 evaluate_reward:1465
+259999
+eva
+evaluate_num:52 	 evaluate_reward:1519
+264999
+eva
+evaluate_num:53 	 evaluate_reward:1551
+269999
+eva
+evaluate_num:54 	 evaluate_reward:1480
+274999
+eva
+evaluate_num:55 	 evaluate_reward:1516
+279999
+eva
+evaluate_num:56 	 evaluate_reward:1572
+284999
+eva
+evaluate_num:57 	 evaluate_reward:1447
+289999
+eva
+evaluate_num:58 	 evaluate_reward:1517
+294999
+eva
+...saving checkpoint....
+...saving checkpoint....
+...saving checkpoint....
+evaluate_num:59 	 evaluate_reward:1633
+299999
+eva
+evaluate_num:60 	 evaluate_reward:1527
+304999
+eva
+evaluate_num:61 	 evaluate_reward:1455
+309999
+eva
+evaluate_num:62 	 evaluate_reward:1503
+314999
+eva
+evaluate_num:63 	 evaluate_reward:1589
+319999
+eva
+evaluate_num:64 	 evaluate_reward:1511
+324999
+eva
+evaluate_num:65 	 evaluate_reward:1587
+329999
+eva
+evaluate_num:66 	 evaluate_reward:1563
+334999
+eva
+evaluate_num:67 	 evaluate_reward:1530
+339999
+eva
+evaluate_num:68 	 evaluate_reward:1503

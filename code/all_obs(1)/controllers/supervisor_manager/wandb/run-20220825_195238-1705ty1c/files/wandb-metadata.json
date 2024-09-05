@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-08-25T11:52:39.942637",
+    "startedAt": "2022-08-25T11:52:38.005638",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Super",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "supervisor_manager.py",
+    "codePath": "supervisor_manager.py",
+    "host": "DESKTOP-QU5ARJO",
+    "username": "fp",
+    "executable": "E:\\anconda\\python.exe"
+}

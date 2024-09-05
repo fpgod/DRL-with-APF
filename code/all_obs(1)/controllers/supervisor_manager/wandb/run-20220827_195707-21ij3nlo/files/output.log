@@ -1,0 +1,8 @@
+C:\Python38\lib\site-packages\gym\spaces\box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+Creation of the directory ./models/saved/sac_all_map/ failed
+Creation of the directory ./exports_sac_all_map/ failed
+state_dim=15
+action_dim=2
+max_action=1.0
+max_episode_steps=1000
