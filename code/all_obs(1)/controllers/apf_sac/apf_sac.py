@@ -1,5 +1,4 @@
-## 基于sac实现的多车聚集任务
-# 保存文件：models/actor_sac,critic_sac,critic_target_sac
+
 import math
 
 import torch
@@ -10,6 +9,7 @@ import numpy as np
 import os
 from sac_rl import *
 from gym import spaces
+from safey_layer import get_safe_action
 
 # import wandb
 
@@ -60,6 +60,9 @@ class EpuckSupervisor:
             return True
         else:
             return False
+        
+
+
 
     def initialize_comms(self):
         communication = []
@@ -417,6 +420,7 @@ if __name__ =='__main__':
     evaluate_rewards = []  # Record the rewards during the evaluating
     total_steps = 0  # Record the total steps during the training
     eposide_rewards = []
+    safe = True
 
     while total_steps < max_train_steps:
         s = env.reset()
@@ -436,7 +440,10 @@ if __name__ =='__main__':
                     #     a[n] =env.apf()[n]
                     # else:
                     #     a[n]= agent.choose_action(s[n])
-                    a[n] = agent.choose_action(s[n])
+                    if safe:
+                        a[n] = get_safe_action(agent.choose_action(s[n]),s[n],c)
+                    else:
+                        a[n] = agent.choose_action(s[n])
             s_, r, done, _ = env.step(a)
             eposide_reward += r
             # When dead or win or reaching the max_episode_steps, done will be Ture, we need to distinguish them;
