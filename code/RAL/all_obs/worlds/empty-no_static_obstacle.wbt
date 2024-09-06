@@ -1,0 +1,369 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5021271973093646 0.5052759087233788 0.7018294192936103 1.9118078421526912
+  position 0.15311012448721373 -2.072687982560592 5.932805333126484
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 4 4
+  floorTileSize 2 2
+}
+DEF e-puck4 E-puck {
+  hidden position_0_0 -7.402669571414481e-10
+  hidden position_0_1 -1.8055313502581266e-09
+  hidden linearVelocity_0 9.42002850455406e-06 -8.456872909520476e-06 -0.00034932838821176274
+  hidden angularVelocity_0 0.0005638092819701336 0.0006280216766352897 -5.247599468684279e-12
+  translation 0.9999999999905436 1.0000000000084897 -1.1178707068900534e-05
+  rotation -0.0002384219140227382 -0.0006224828055998126 -0.9999997778350491 0.731573248224584
+  name "e-puck4"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 4
+  receiver_channel 4
+}
+Robot {
+  children [
+    DEF emitter0 Emitter {
+      name "emitter0"
+    }
+    DEF emitter1 Emitter {
+      name "emitter1"
+      channel 1
+    }
+    DEF emitter2 Emitter {
+      name "emitter2"
+      channel 2
+    }
+    DEF emitter3 Emitter {
+      name "emitter3"
+      channel 3
+    }
+    DEF emitter4 Emitter {
+      name "emitter4"
+      channel 4
+    }
+    DEF emitter5 Emitter {
+      name "emitter5"
+      channel 5
+    }
+    DEF emitter6 Emitter {
+      name "emitter6"
+      channel 6
+    }
+    DEF emitter7 Emitter {
+      name "emitter7"
+      channel 7
+    }
+    DEF emitter8 Emitter {
+      name "emitter8"
+      channel 8
+    }
+    DEF emitter9 Emitter {
+      name "emitter9"
+      channel 9
+    }
+    DEF emitter10 Emitter {
+      name "emitter10"
+      channel 9
+    }
+    DEF emitter11 Emitter {
+      name "emitter11"
+      channel 9
+    }
+    DEF emitter12 Emitter {
+      name "emitter12"
+      channel 9
+    }
+    DEF emitter13 Emitter {
+      name "emitter13"
+      channel 9
+    }
+    DEF emitter14 Emitter {
+      name "emitter14"
+      channel 9
+    }
+    DEF emitter15 Emitter {
+      name "emitter15"
+      channel 9
+    }
+    DEF receiver0 Receiver {
+      name "receiver0"
+    }
+    DEF receiver1 Receiver {
+      name "receiver1"
+      channel 1
+    }
+    DEF receiver2 Receiver {
+      name "receiver2"
+      channel 2
+    }
+    DEF receiver3 Receiver {
+      name "receiver3"
+      channel 3
+    }
+    DEF receiver4 Receiver {
+      name "receiver4"
+      channel 4
+    }
+    DEF receiver5 Receiver {
+      name "receiver5"
+      channel 5
+    }
+    DEF receiver6 Receiver {
+      name "receiver6"
+      channel 6
+    }
+    DEF receiver7 Receiver {
+      name "receiver7"
+      channel 7
+    }
+    DEF receiver8 Receiver {
+      name "receiver8"
+      channel 8
+    }
+    DEF receiver9 Receiver {
+      name "receiver9"
+      channel 9
+    }
+    DEF receiver10 Receiver {
+      name "receiver10"
+      channel 9
+    }
+    DEF receiver11 Receiver {
+      name "receiver11"
+      channel 9
+    }
+    DEF receiver13 Receiver {
+      name "receiver13"
+      channel 9
+    }
+    DEF receiver12 Receiver {
+      name "receiver12"
+      channel 9
+    }
+    DEF receiver14 Receiver {
+      name "receiver14"
+      channel 9
+    }
+    DEF receiver15 Receiver {
+      name "receiver15"
+      channel 9
+    }
+  ]
+  controller "<extern>"
+  supervisor TRUE
+}
+DEF e-puck3 E-puck {
+  hidden position_0_0 -3.137402308722205e-09
+  hidden position_0_1 3.5979589330589758e-09
+  hidden linearVelocity_0 -0.04004712214961159 -0.059167541319895746 -0.11282988910150643
+  hidden angularVelocity_0 3.9451945101428643 -2.669516287394169 -0.00040177182375671517
+  translation 0.4999924709861666 0.9999893861090062 -0.0034372997551418046
+  rotation 0.2399911968144201 -0.07536628534997944 -0.967845105625961 0.6138265688786446
+  name "e-puck3"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 3
+  receiver_channel 3
+}
+DEF e-puck2 E-puck {
+  hidden position_0_0 -2.5000140792632607e-09
+  hidden position_0_1 1.4762671406254137e-09
+  hidden linearVelocity_0 0.00011081518310504389 5.2417396556093054e-05 -0.0005382917483516918
+  hidden angularVelocity_0 -0.0034945965729499206 0.0073879229277736685 1.0527947014412682e-08
+  translation -1.145382503425096e-10 0.9999999999515692 -1.7226042599637753e-05
+  rotation -0.0005234779628423383 0.00039835017310389163 0.9999997836439577 2.2674868648358237
+  name "e-puck2"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 2
+  receiver_channel 2
+}
+DEF e-puck1 E-puck {
+  hidden position_0_0 -2.5174474176083635e-10
+  hidden position_0_1 1.4606091823982247e-10
+  hidden linearVelocity_0 -3.4086755137289045e-06 -4.0228204221284864e-05 -0.00034920251577075917
+  hidden angularVelocity_0 0.0026819636964583557 -0.00022725210226507222 -1.6966303387202808e-11
+  translation -0.4999999999967409 1.000000000038464 -1.1176500892030872e-05
+  rotation -0.0007603767629551357 -0.0006986745022880756 -0.9999994668404169 1.6553284115036409
+  name "e-puck1"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+}
+DEF e-puck0 E-puck {
+  hidden position_0_0 7.369527293078253e-09
+  hidden position_0_1 -4.963208569568055e-09
+  hidden linearVelocity_0 3.855387556701325e-06 -3.0553860369421985e-05 1.6900461955716447e-07
+  hidden angularVelocity_0 0.0020369877472415586 0.0002570338768830904 1.0802033955136167e-09
+  translation -1.0000055915804593 0.999915635433444 -5.5966866568647744e-05
+  rotation -0.0005795181627702604 0.0005114331381918252 0.9999997012973774 1.694738652288305
+  name "e-puck0"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 0
+  receiver_channel 0
+}
+DEF e-puck5 E-puck {
+  hidden position_0_0 7.369494104917263e-09
+  hidden position_0_1 -4.963197284473237e-09
+  hidden linearVelocity_0 0.00012150960532800353 -1.5843050189171328e-05 -0.0005382926422864916
+  hidden angularVelocity_0 0.0010562482267714207 0.008100901713027958 1.028890674887911e-08
+  translation 0.9999999998773789 0.5000000000211747 -1.7226058509654113e-05
+  rotation -0.0004678745110875375 0.0006379618273660766 0.9999996870490255 1.69473882157945
+  name "e-puck5"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 5
+  receiver_channel 5
+}
+DEF e-puck6 E-puck {
+  hidden position_0_0 7.369508786946293e-09
+  hidden position_0_1 -4.963177148169587e-09
+  hidden linearVelocity_0 0.00012150960533190349 -1.5843050188888355e-05 -0.0005382926422846331
+  hidden angularVelocity_0 0.0010562482267650643 0.008100901712966494 1.0288893695197397e-08
+  translation 0.9999999998773788 2.1174622941004008e-11 -1.7226058509595132e-05
+  rotation -0.0004678745110790857 0.0006379618273752647 0.9999996870490254 1.694738821579456
+  name "e-puck6"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 6
+  receiver_channel 6
+}
+DEF e-puck7 E-puck {
+  hidden position_0_0 7.369505208150179e-09
+  hidden position_0_1 -4.963191131915606e-09
+  hidden linearVelocity_0 0.00012150960532911133 -1.5843050188431855e-05 -0.0005382926422916839
+  hidden angularVelocity_0 0.0010562482267652707 0.008100901712761354 1.0288906712786401e-08
+  translation 0.999999999877379 -0.4999999999788253 -1.7226058509824116e-05
+  rotation -0.0004678745110694694 0.0006379618273623535 0.9999996870490253 1.6947388215794579
+  name "e-puck7"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 7
+  receiver_channel 7
+}
+DEF e-puck8 E-puck {
+  hidden position_0_0 7.3695178239075795e-09
+  hidden position_0_1 -4.9631824293057946e-09
+  hidden linearVelocity_0 0.00012150960533066234 -1.58430501894464e-05 -0.0005382926422840866
+  hidden angularVelocity_0 0.0010562482268429046 0.008100901712831787 1.028889537775889e-08
+  translation 0.9999999998773789 -0.9999999999788253 -1.7226058509577785e-05
+  rotation -0.0004678745111052118 0.0006379618273693599 0.9999996870490254 1.6947388215794377
+  name "e-puck8"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 8
+  receiver_channel 8
+}
+DEF e-puck9 E-puck {
+  hidden position_0_0 7.3695026996389856e-09
+  hidden position_0_1 -4.963187244772393e-09
+  hidden linearVelocity_0 0.00012150960533310147 -1.584305018688037e-05 -0.0005382926422886779
+  hidden angularVelocity_0 0.0010562482266264375 0.008100901712985529 1.0288894258042744e-08
+  translation 0.4999999998773789 -0.9999999999788254 -1.7226058509721767e-05
+  rotation -0.00046787451105256947 0.0006379618273275816 0.9999996870490255 1.6947388215794466
+  name "e-puck9"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 9
+  receiver_channel 9
+}
+DEF e-puck10 E-puck {
+  hidden position_0_0 1.2364470118772285e-08
+  hidden position_0_1 2.479338997256643e-11
+  hidden linearVelocity_0 0.00012150960532791382 -1.584305018749441e-05 -0.0005382926422827202
+  hidden angularVelocity_0 0.001056248226611409 0.008100901713126243 1.0288892949769864e-08
+  translation -1.2262128996246822e-10 -0.9999999999788254 -1.7226058509530948e-05
+  rotation -0.00046787451105053047 0.0006379618273298103 0.9999996870490255 1.6947388215794466
+  name "e-puck10"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 10
+  receiver_channel 10
+}
+DEF e-puck11 E-puck {
+  hidden position_0_0 1.2364489385141275e-08
+  hidden position_0_1 2.4789656991458922e-11
+  hidden linearVelocity_0 0.0001215096053342234 -1.5843050186571672e-05 -0.0005382926422900443
+  hidden angularVelocity_0 0.0010562482266226673 0.008100901713064466 1.0288902609171599e-08
+  translation -0.500000000122621 -0.9999999999788254 -1.7226058509765135e-05
+  rotation -0.00046787451105135977 0.000637961827328757 0.9999996870490254 1.694738821579447
+  name "e-puck11"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 11
+  receiver_channel 11
+}
+DEF e-puck12 E-puck {
+  hidden position_0_0 1.2364474570027686e-08
+  hidden position_0_1 2.4785569787356048e-11
+  hidden linearVelocity_0 0.00012150960533217096 -1.5843050186971326e-05 -0.0005382926422890057
+  hidden angularVelocity_0 0.0010562482266259633 0.008100901712980974 1.0288889936358462e-08
+  translation -1.000000000122621 -0.9999999999788254 -1.7226058509732176e-05
+  rotation -0.00046787451105264905 0.0006379618273275248 0.9999996870490255 1.6947388215794466
+  name "e-puck12"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 12
+  receiver_channel 12
+}
+DEF e-puck13 E-puck {
+  hidden position_0_0 1.2364500623978905e-08
+  hidden position_0_1 2.479698662019646e-11
+  hidden linearVelocity_0 0.00012150960533495525 -1.584305018660495e-05 -0.0005382926422875847
+  hidden angularVelocity_0 0.0010562482266493313 0.008100901712885272 1.0288888731832507e-08
+  translation -1.000000000122621 -0.4999999999788254 -1.7226058509687073e-05
+  rotation -0.0004678745110538501 0.0006379618273257986 0.9999996870490255 1.6947388215794463
+  name "e-puck13"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 13
+  receiver_channel 13
+}
+DEF e-puck14 E-puck {
+  hidden position_0_0 1.2364491903752168e-08
+  hidden position_0_1 2.478342851014532e-11
+  hidden linearVelocity_0 0.00012150960533326677 -1.5843050186624913e-05 -0.0005382926422862729
+  hidden angularVelocity_0 0.0010562482266333146 0.008100901712940166 1.0288897665119483e-08
+  translation -1.000000000122621 2.117463212961742e-11 -1.722605850964544e-05
+  rotation -0.0004678745110531982 0.0006379618273268305 0.9999996870490255 1.6947388215794466
+  name "e-puck14"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 14
+  receiver_channel 14
+}
+DEF e-puck15 E-puck {
+  hidden position_0_0 1.23644827335176e-08
+  hidden position_0_1 2.4790594807971404e-11
+  hidden linearVelocity_0 0.00012150960533246196 -1.584305018626356e-05 -0.0005382926422861636
+  hidden angularVelocity_0 0.0010562482265888376 0.008100901713092962 1.0288910375917813e-08
+  translation -1.000000000122621 0.5000000000211746 -1.722605850964197e-05
+  rotation -0.0004678745110513819 0.0006379618273297009 0.9999996870490255 1.6947388215794472
+  name "e-puck15"
+  controller "robot_controller"
+  supervisor TRUE
+  version "2"
+  emitter_channel 15
+  receiver_channel 15
+}
